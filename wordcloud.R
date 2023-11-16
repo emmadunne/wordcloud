@@ -50,5 +50,5 @@ words <- read_csv("words.csv")
 
 wordcloud(words = words$word, freq = words$freq, min.freq = 4,           
           max.words=100, random.order=FALSE, rot.per=0.35, 
-          colors=pal_jco()(7))
+          colors=pal_flatui()(8))
 
